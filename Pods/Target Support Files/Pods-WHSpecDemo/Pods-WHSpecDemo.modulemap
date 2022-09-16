@@ -1,0 +1,6 @@
+framework module Pods_WHSpecDemo {
+  umbrella header "Pods-WHSpecDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

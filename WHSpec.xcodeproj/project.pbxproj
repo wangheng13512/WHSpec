@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C9774814642CB8AAEF00E07 /* Pods_WHSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CC298A8F3C7A057D851874 /* Pods_WHSpec.framework */; };
 		2A1BA92028D42432001CDC49 /* WHSpec.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA91F28D42432001CDC49 /* WHSpec.docc */; };
 		2A1BA92628D42432001CDC49 /* WHSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1BA91B28D42432001CDC49 /* WHSpec.framework */; };
 		2A1BA92B28D42432001CDC49 /* WHSpecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA92A28D42432001CDC49 /* WHSpecTests.m */; };
 		2A1BA92C28D42432001CDC49 /* WHSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1BA91E28D42432001CDC49 /* WHSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1BA93D28D4244C001CDC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA93C28D4244C001CDC49 /* AppDelegate.m */; };
+		2A1BA94028D4244C001CDC49 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA93F28D4244C001CDC49 /* SceneDelegate.m */; };
+		2A1BA94328D4244C001CDC49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA94228D4244C001CDC49 /* ViewController.m */; };
+		2A1BA94628D4244C001CDC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BA94428D4244C001CDC49 /* Main.storyboard */; };
+		2A1BA94828D4244D001CDC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BA94728D4244D001CDC49 /* Assets.xcassets */; };
+		2A1BA94B28D4244D001CDC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BA94928D4244D001CDC49 /* LaunchScreen.storyboard */; };
+		2A1BA94E28D4244D001CDC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA94D28D4244D001CDC49 /* main.m */; };
+		2A1BA95428D424E7001CDC49 /* AWHBRSizeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1BA95228D424E7001CDC49 /* AWHBRSizeHelper.h */; };
+		2A1BA95528D424E7001CDC49 /* AWHBRSizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA95328D424E7001CDC49 /* AWHBRSizeHelper.m */; };
+		8A61002B3595C58CF7FA4166 /* Pods_WHSpecDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2366F0443D0A22079A05FB1B /* Pods_WHSpecDemo.framework */; };
+		A602A8C7A1FBC6EA90892D40 /* Pods_WHSpec_WHSpecTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705ED538607851604973DDE1 /* Pods_WHSpec_WHSpecTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +36,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2306CC1BD0C4CA3F7BD55094 /* Pods-WHSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec.release.xcconfig"; path = "Target Support Files/Pods-WHSpec/Pods-WHSpec.release.xcconfig"; sourceTree = "<group>"; };
+		2366F0443D0A22079A05FB1B /* Pods_WHSpecDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSpecDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1BA91B28D42432001CDC49 /* WHSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WHSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1BA91E28D42432001CDC49 /* WHSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHSpec.h; sourceTree = "<group>"; };
 		2A1BA91F28D42432001CDC49 /* WHSpec.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WHSpec.docc; sourceTree = "<group>"; };
 		2A1BA92528D42432001CDC49 /* WHSpecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHSpecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1BA92A28D42432001CDC49 /* WHSpecTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHSpecTests.m; sourceTree = "<group>"; };
+		2A1BA93928D4244C001CDC49 /* WHSpecDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHSpecDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1BA93B28D4244C001CDC49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A1BA93C28D4244C001CDC49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A1BA93E28D4244C001CDC49 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2A1BA93F28D4244C001CDC49 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2A1BA94128D4244C001CDC49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A1BA94228D4244C001CDC49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A1BA94528D4244C001CDC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A1BA94728D4244D001CDC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A1BA94A28D4244D001CDC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A1BA94C28D4244D001CDC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1BA94D28D4244D001CDC49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A1BA95228D424E7001CDC49 /* AWHBRSizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWHBRSizeHelper.h; sourceTree = "<group>"; };
+		2A1BA95328D424E7001CDC49 /* AWHBRSizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWHBRSizeHelper.m; sourceTree = "<group>"; };
+		5FCE49AC859F5E67C8C36E22 /* Pods-WHSpecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpecDemo.debug.xcconfig"; path = "Target Support Files/Pods-WHSpecDemo/Pods-WHSpecDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		705ED538607851604973DDE1 /* Pods_WHSpec_WHSpecTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSpec_WHSpecTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8810EAF3403E4D9F49D07F /* Pods-WHSpec-WHSpecTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec-WHSpecTests.debug.xcconfig"; path = "Target Support Files/Pods-WHSpec-WHSpecTests/Pods-WHSpec-WHSpecTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B856A38DDBA2A048297E0A /* Pods-WHSpecDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpecDemo.release.xcconfig"; path = "Target Support Files/Pods-WHSpecDemo/Pods-WHSpecDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E99B9322B1E1AC197F82AB5E /* Pods-WHSpec-WHSpecTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec-WHSpecTests.release.xcconfig"; path = "Target Support Files/Pods-WHSpec-WHSpecTests/Pods-WHSpec-WHSpecTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6CC298A8F3C7A057D851874 /* Pods_WHSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F020DFEFF779263894B7C0 /* Pods-WHSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec.debug.xcconfig"; path = "Target Support Files/Pods-WHSpec/Pods-WHSpec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9774814642CB8AAEF00E07 /* Pods_WHSpec.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +80,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1BA92628D42432001CDC49 /* WHSpec.framework in Frameworks */,
+				A602A8C7A1FBC6EA90892D40 /* Pods_WHSpec_WHSpecTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1BA93628D4244C001CDC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A61002B3595C58CF7FA4166 /* Pods_WHSpecDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +100,10 @@
 			children = (
 				2A1BA91D28D42432001CDC49 /* WHSpec */,
 				2A1BA92928D42432001CDC49 /* WHSpecTests */,
+				2A1BA93A28D4244C001CDC49 /* WHSpecDemo */,
 				2A1BA91C28D42432001CDC49 /* Products */,
+				AC62F4CB13B1204D1238C4FA /* Pods */,
+				3CAC6BB18D0EF20F2731DC7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +112,7 @@
 			children = (
 				2A1BA91B28D42432001CDC49 /* WHSpec.framework */,
 				2A1BA92528D42432001CDC49 /* WHSpecTests.xctest */,
+				2A1BA93928D4244C001CDC49 /* WHSpecDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				2A1BA91E28D42432001CDC49 /* WHSpec.h */,
+				2A1BA95228D424E7001CDC49 /* AWHBRSizeHelper.h */,
+				2A1BA95328D424E7001CDC49 /* AWHBRSizeHelper.m */,
 				2A1BA91F28D42432001CDC49 /* WHSpec.docc */,
 			);
 			path = WHSpec;
@@ -85,6 +136,47 @@
 			path = WHSpecTests;
 			sourceTree = "<group>";
 		};
+		2A1BA93A28D4244C001CDC49 /* WHSpecDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A1BA93B28D4244C001CDC49 /* AppDelegate.h */,
+				2A1BA93C28D4244C001CDC49 /* AppDelegate.m */,
+				2A1BA93E28D4244C001CDC49 /* SceneDelegate.h */,
+				2A1BA93F28D4244C001CDC49 /* SceneDelegate.m */,
+				2A1BA94128D4244C001CDC49 /* ViewController.h */,
+				2A1BA94228D4244C001CDC49 /* ViewController.m */,
+				2A1BA94428D4244C001CDC49 /* Main.storyboard */,
+				2A1BA94728D4244D001CDC49 /* Assets.xcassets */,
+				2A1BA94928D4244D001CDC49 /* LaunchScreen.storyboard */,
+				2A1BA94C28D4244D001CDC49 /* Info.plist */,
+				2A1BA94D28D4244D001CDC49 /* main.m */,
+			);
+			path = WHSpecDemo;
+			sourceTree = "<group>";
+		};
+		3CAC6BB18D0EF20F2731DC7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC298A8F3C7A057D851874 /* Pods_WHSpec.framework */,
+				705ED538607851604973DDE1 /* Pods_WHSpec_WHSpecTests.framework */,
+				2366F0443D0A22079A05FB1B /* Pods_WHSpecDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC62F4CB13B1204D1238C4FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8F020DFEFF779263894B7C0 /* Pods-WHSpec.debug.xcconfig */,
+				2306CC1BD0C4CA3F7BD55094 /* Pods-WHSpec.release.xcconfig */,
+				BB8810EAF3403E4D9F49D07F /* Pods-WHSpec-WHSpecTests.debug.xcconfig */,
+				E99B9322B1E1AC197F82AB5E /* Pods-WHSpec-WHSpecTests.release.xcconfig */,
+				5FCE49AC859F5E67C8C36E22 /* Pods-WHSpecDemo.debug.xcconfig */,
+				D5B856A38DDBA2A048297E0A /* Pods-WHSpecDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,6 +184,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1BA95428D424E7001CDC49 /* AWHBRSizeHelper.h in Headers */,
 				2A1BA92C28D42432001CDC49 /* WHSpec.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A1BA92F28D42432001CDC49 /* Build configuration list for PBXNativeTarget "WHSpec" */;
 			buildPhases = (
+				F7EA3DA8DF922BC05A9B9AA7 /* [CP] Check Pods Manifest.lock */,
 				2A1BA91628D42432001CDC49 /* Headers */,
 				2A1BA91728D42432001CDC49 /* Sources */,
 				2A1BA91828D42432001CDC49 /* Frameworks */,
@@ -121,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A1BA93228D42432001CDC49 /* Build configuration list for PBXNativeTarget "WHSpecTests" */;
 			buildPhases = (
+				614CACDBE3C2283DD86A15E1 /* [CP] Check Pods Manifest.lock */,
 				2A1BA92128D42432001CDC49 /* Sources */,
 				2A1BA92228D42432001CDC49 /* Frameworks */,
 				2A1BA92328D42432001CDC49 /* Resources */,
@@ -135,6 +230,24 @@
 			productReference = 2A1BA92528D42432001CDC49 /* WHSpecTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2A1BA93828D4244C001CDC49 /* WHSpecDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1BA94F28D4244D001CDC49 /* Build configuration list for PBXNativeTarget "WHSpecDemo" */;
+			buildPhases = (
+				429EEDD2595B62E2909929D9 /* [CP] Check Pods Manifest.lock */,
+				2A1BA93528D4244C001CDC49 /* Sources */,
+				2A1BA93628D4244C001CDC49 /* Frameworks */,
+				2A1BA93728D4244C001CDC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHSpecDemo;
+			productName = WHSpecDemo;
+			productReference = 2A1BA93928D4244C001CDC49 /* WHSpecDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +261,9 @@
 						CreatedOnToolsVersion = 13.4;
 					};
 					2A1BA92428D42432001CDC49 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2A1BA93828D4244C001CDC49 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
@@ -167,6 +283,7 @@
 			targets = (
 				2A1BA91A28D42432001CDC49 /* WHSpec */,
 				2A1BA92428D42432001CDC49 /* WHSpecTests */,
+				2A1BA93828D4244C001CDC49 /* WHSpecDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -186,7 +303,86 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A1BA93728D4244C001CDC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1BA94B28D4244D001CDC49 /* LaunchScreen.storyboard in Resources */,
+				2A1BA94828D4244D001CDC49 /* Assets.xcassets in Resources */,
+				2A1BA94628D4244C001CDC49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		429EEDD2595B62E2909929D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHSpecDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614CACDBE3C2283DD86A15E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHSpec-WHSpecTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EA3DA8DF922BC05A9B9AA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHSpec-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A1BA91728D42432001CDC49 /* Sources */ = {
@@ -194,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1BA92028D42432001CDC49 /* WHSpec.docc in Sources */,
+				2A1BA95528D424E7001CDC49 /* AWHBRSizeHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +399,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1BA92B28D42432001CDC49 /* WHSpecTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1BA93528D4244C001CDC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1BA94328D4244C001CDC49 /* ViewController.m in Sources */,
+				2A1BA93D28D4244C001CDC49 /* AppDelegate.m in Sources */,
+				2A1BA94E28D4244D001CDC49 /* main.m in Sources */,
+				2A1BA94028D4244C001CDC49 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +422,25 @@
 			targetProxy = 2A1BA92728D42432001CDC49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A1BA94428D4244C001CDC49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1BA94528D4244C001CDC49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A1BA94928D4244D001CDC49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1BA94A28D4244D001CDC49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2A1BA92D28D42432001CDC49 /* Debug */ = {
@@ -334,6 +561,7 @@
 		};
 		2A1BA93028D42432001CDC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F020DFEFF779263894B7C0 /* Pods-WHSpec.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -345,22 +573,26 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.WHSpec;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2A1BA93128D42432001CDC49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2306CC1BD0C4CA3F7BD55094 /* Pods-WHSpec.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -372,22 +604,26 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.WHSpec;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		2A1BA93328D42432001CDC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8810EAF3403E4D9F49D07F /* Pods-WHSpec-WHSpecTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -403,6 +639,7 @@
 		};
 		2A1BA93428D42432001CDC49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99B9322B1E1AC197F82AB5E /* Pods-WHSpec-WHSpecTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -412,6 +649,62 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.WHSpecTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A1BA95028D4244D001CDC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCE49AC859F5E67C8C36E22 /* Pods-WHSpecDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T67G7HEM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WHSpecDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.WHSpecDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A1BA95128D4244D001CDC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B856A38DDBA2A048297E0A /* Pods-WHSpecDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T67G7HEM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WHSpecDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.WHSpecDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -442,6 +735,15 @@
 			buildConfigurations = (
 				2A1BA93328D42432001CDC49 /* Debug */,
 				2A1BA93428D42432001CDC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1BA94F28D4244D001CDC49 /* Build configuration list for PBXNativeTarget "WHSpecDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1BA95028D4244D001CDC49 /* Debug */,
+				2A1BA95128D4244D001CDC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

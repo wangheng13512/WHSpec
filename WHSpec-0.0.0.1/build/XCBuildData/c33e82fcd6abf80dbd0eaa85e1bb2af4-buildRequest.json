@@ -1,0 +1,43 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98d608a0f9d40eeffb019e62e7d3799235"
+    }
+  ],
+  "containerPath" : "/var/folders/kc/yypz7d7s4vb_tv_7pvxy9zhw0000gn/T/cocoapods-urep25gh/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CONFIGURATION_BUILD_DIR" : "build-sim",
+          "GCC_PREPROCESSOR_DEFINITIONS" : "$(inherited) PodsDummy_Pods_WHSpec=PodsDummy_PodPackage_WHSpec",
+          "SDKROOT" : "iphonesimulator15.5"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

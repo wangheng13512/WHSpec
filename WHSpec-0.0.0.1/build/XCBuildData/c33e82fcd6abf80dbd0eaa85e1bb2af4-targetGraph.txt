@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+WHSpec in Pods, no dependencies
+Pods-packager in Pods, depends on:
+WHSpec in Pods (explicit)

@@ -1,0 +1,6 @@
+framework module WHSpec {
+  umbrella header "WHSpec.h"
+
+  export *
+  module * { export * }
+}

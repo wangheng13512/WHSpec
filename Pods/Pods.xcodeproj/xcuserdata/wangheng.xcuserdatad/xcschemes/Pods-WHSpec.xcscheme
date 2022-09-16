@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F0C2428B02D7D5C2FCD3667C87E97EA"
-               BuildableName = "Pods_WHSpec.framework"
+               BuildableName = "libPods-WHSpec.a"
                BlueprintName = "Pods-WHSpec"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

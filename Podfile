@@ -3,7 +3,7 @@
 
 target 'WHSpec' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+#  use_frameworks!
 
   # Pods for WHSpec
 
@@ -15,8 +15,9 @@ end
 
 target 'WHSpecDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+#  use_frameworks!
 
+#pod 'WHSpec', :path => './WHSpec.podspec'
   # Pods for WHSpecDemo
 
 end

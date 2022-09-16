@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C9774814642CB8AAEF00E07 /* Pods_WHSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CC298A8F3C7A057D851874 /* Pods_WHSpec.framework */; };
+		23B65E656300596E5B9CDC90 /* libPods-WHSpec-WHSpecTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 389878546945C3658BDDEB11 /* libPods-WHSpec-WHSpecTests.a */; };
 		2A1BA92028D42432001CDC49 /* WHSpec.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA91F28D42432001CDC49 /* WHSpec.docc */; };
 		2A1BA92628D42432001CDC49 /* WHSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1BA91B28D42432001CDC49 /* WHSpec.framework */; };
 		2A1BA92B28D42432001CDC49 /* WHSpecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA92A28D42432001CDC49 /* WHSpecTests.m */; };
@@ -21,8 +21,8 @@
 		2A1BA94E28D4244D001CDC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA94D28D4244D001CDC49 /* main.m */; };
 		2A1BA95428D424E7001CDC49 /* AWHBRSizeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1BA95228D424E7001CDC49 /* AWHBRSizeHelper.h */; };
 		2A1BA95528D424E7001CDC49 /* AWHBRSizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BA95328D424E7001CDC49 /* AWHBRSizeHelper.m */; };
-		8A61002B3595C58CF7FA4166 /* Pods_WHSpecDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2366F0443D0A22079A05FB1B /* Pods_WHSpecDemo.framework */; };
-		A602A8C7A1FBC6EA90892D40 /* Pods_WHSpec_WHSpecTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705ED538607851604973DDE1 /* Pods_WHSpec_WHSpecTests.framework */; };
+		462A8C80B527692DA13F8C46 /* libPods-WHSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC3F6133D45239360654F02 /* libPods-WHSpec.a */; };
+		F04B798E3EDA60A5CBECBD1E /* libPods-WHSpecDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D299A9374A3D20D4918065E6 /* libPods-WHSpecDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		2306CC1BD0C4CA3F7BD55094 /* Pods-WHSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec.release.xcconfig"; path = "Target Support Files/Pods-WHSpec/Pods-WHSpec.release.xcconfig"; sourceTree = "<group>"; };
-		2366F0443D0A22079A05FB1B /* Pods_WHSpecDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSpecDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1BA91B28D42432001CDC49 /* WHSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WHSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1BA91E28D42432001CDC49 /* WHSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHSpec.h; sourceTree = "<group>"; };
 		2A1BA91F28D42432001CDC49 /* WHSpec.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WHSpec.docc; sourceTree = "<group>"; };
@@ -57,12 +56,13 @@
 		2A1BA94D28D4244D001CDC49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A1BA95228D424E7001CDC49 /* AWHBRSizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWHBRSizeHelper.h; sourceTree = "<group>"; };
 		2A1BA95328D424E7001CDC49 /* AWHBRSizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWHBRSizeHelper.m; sourceTree = "<group>"; };
+		389878546945C3658BDDEB11 /* libPods-WHSpec-WHSpecTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHSpec-WHSpecTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCE49AC859F5E67C8C36E22 /* Pods-WHSpecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpecDemo.debug.xcconfig"; path = "Target Support Files/Pods-WHSpecDemo/Pods-WHSpecDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		705ED538607851604973DDE1 /* Pods_WHSpec_WHSpecTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSpec_WHSpecTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC3F6133D45239360654F02 /* libPods-WHSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHSpec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8810EAF3403E4D9F49D07F /* Pods-WHSpec-WHSpecTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec-WHSpecTests.debug.xcconfig"; path = "Target Support Files/Pods-WHSpec-WHSpecTests/Pods-WHSpec-WHSpecTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D299A9374A3D20D4918065E6 /* libPods-WHSpecDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHSpecDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B856A38DDBA2A048297E0A /* Pods-WHSpecDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpecDemo.release.xcconfig"; path = "Target Support Files/Pods-WHSpecDemo/Pods-WHSpecDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E99B9322B1E1AC197F82AB5E /* Pods-WHSpec-WHSpecTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec-WHSpecTests.release.xcconfig"; path = "Target Support Files/Pods-WHSpec-WHSpecTests/Pods-WHSpec-WHSpecTests.release.xcconfig"; sourceTree = "<group>"; };
-		F6CC298A8F3C7A057D851874 /* Pods_WHSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F020DFEFF779263894B7C0 /* Pods-WHSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSpec.debug.xcconfig"; path = "Target Support Files/Pods-WHSpec/Pods-WHSpec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C9774814642CB8AAEF00E07 /* Pods_WHSpec.framework in Frameworks */,
+				462A8C80B527692DA13F8C46 /* libPods-WHSpec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1BA92628D42432001CDC49 /* WHSpec.framework in Frameworks */,
-				A602A8C7A1FBC6EA90892D40 /* Pods_WHSpec_WHSpecTests.framework in Frameworks */,
+				23B65E656300596E5B9CDC90 /* libPods-WHSpec-WHSpecTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A61002B3595C58CF7FA4166 /* Pods_WHSpecDemo.framework in Frameworks */,
+				F04B798E3EDA60A5CBECBD1E /* libPods-WHSpecDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,9 +157,9 @@
 		3CAC6BB18D0EF20F2731DC7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6CC298A8F3C7A057D851874 /* Pods_WHSpec.framework */,
-				705ED538607851604973DDE1 /* Pods_WHSpec_WHSpecTests.framework */,
-				2366F0443D0A22079A05FB1B /* Pods_WHSpecDemo.framework */,
+				9DC3F6133D45239360654F02 /* libPods-WHSpec.a */,
+				389878546945C3658BDDEB11 /* libPods-WHSpec-WHSpecTests.a */,
+				D299A9374A3D20D4918065E6 /* libPods-WHSpecDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

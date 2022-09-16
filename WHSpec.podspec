@@ -149,7 +149,7 @@ Pod::Spec.new do |s|
 
   s.framework  = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.vendored_framework = "#{s.name}.framework"
+  #s.vendored_framework = "#{s.name}.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
